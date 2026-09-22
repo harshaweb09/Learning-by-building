@@ -14,10 +14,10 @@
 body {
   min-height: 100dvh;
   font-family: "Figtree", sans-serif;
+  background-color: #f5d04e;
 }
 
 main {
-  background-color: #f5d04e;
   height: 100dvh;
   display: flex;
   align-items: center;
