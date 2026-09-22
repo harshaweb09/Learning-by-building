@@ -59,6 +59,12 @@ main {
 
 .card-title {
   font-size: 24px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.card-title:hover {
+  color: #f5d04e;
 }
 
 .card-body {
