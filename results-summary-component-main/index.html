@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results summary component</title>
+    <meta
+      name="description"
+      content="A clean, responsive results summary component challenge dashboard."
+    />
+    <meta property="og:type" content="profile" />
+    <meta
+      property="og:url"
+      content="https://harshaweb09.github.io/Learning-by-building/results-summary-component-main/"
+    />
+    <meta property="og:title" content="Results Summary Component" />
+    <meta
+      property="og:description"
+      content="View your test metrics analysis including reaction, memory, verbal, and visual scores."
+    />
+    <meta
+      property="og:image"
+      content="https://harshaweb09.github.io/Learning-by-building/results-summary-component-main/assets/images/preview.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="result-summary-card">
+        <section class="results-panel">
+          <h1 class="pannel-title">Your Result</h1>
+          <div class="score-display">
+            <span class="score-obtained">76</span>
+            <span class="score-total">of 100</span>
+          </div>
+          <p class="score-feedback">Great</p>
+          <p class="score-comparison">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+        <section class="summary-panel">
+          <h2 class="pannel-title">Summary</h2>
+          <ul class="metrics-list">
+            <li class="metric-item reaction">
+              <span class="metric-label">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                Reaction
+              </span>
+              <span class="metric-score"><strong>80</strong> / 100</span>
+            </li>
+            <li class="metric-item memory">
+              <span class="metric-label">
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                Memory
+              </span>
+              <span class="metric-score"><strong>92</strong> / 100</span>
+            </li>
+            <li class="metric-item verbal">
+              <span class="metric-label">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                Verbal
+              </span>
+              <span class="metric-score"><strong>61</strong> / 100</span>
+            </li>
+            <li class="metric-item visual">
+              <span class="metric-label">
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                Visual
+              </span>
+              <span class="metric-score"><strong>80</strong> / 100</span>
+            </li>
+          </ul>
+          <button class="btn-continue">Continue</button>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
